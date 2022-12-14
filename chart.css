@@ -14,12 +14,26 @@ body h3{
    
 }
 
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-left: 850px;
+    font-weight: bold;
+    justify-items: space-between;
+}
+
+.flex-1{
+    margin-right: 20px;
+}
+
 .bullet {
     font: 10px 'Montserrat';
 }
 
 .bullet .goal {
-    stroke: orange;
+    stroke: #FF8255;
     stroke-width: 7px;
 }
 
@@ -29,12 +43,12 @@ body h3{
 }
 
 .bullet .initial1.s0 {
-    fill: lightblue;
+    fill: #98D0FF;
 }
 
 
 .bullet .current1.s0 {
-    fill: darkblue;
+    fill: #2D3092;
 }
 
 .bullet .title {
