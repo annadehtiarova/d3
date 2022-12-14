@@ -1,0 +1,272 @@
+[
+  {
+    "Category": "Fostering collaboration",
+    "Title": "Instills Trust",
+    "Initial": 5,
+    "Current": 8,
+    "Goal": 9,
+    "Count": 1,
+    "Progress": "60%"
+  },
+  {
+    "Category": "Open & Authentic",
+    "Title": "Demonstrates self-awareness",
+    "Initial": 3,
+    "Current": 4,
+    "Goal": 6.5,
+    "Count": 2,
+    "Progress": "33%"
+  },
+  {
+    "Category": "Communication",
+    "Title": "Diplomacy /Tactfulness",
+    "Initial": 4.1,
+    "Current": 5.4,
+    "Goal": 8.4,
+    "Count": 8,
+    "Progress": "30%"
+  },
+  {
+    "Category": "Developing people",
+    "Title": "Political Savvy",
+    "Initial": 4.7,
+    "Current": 6,
+    "Goal": 8.3,
+    "Count": 3,
+    "Progress": "29%"
+  },
+  {
+    "Category": "Communication",
+    "Title": "Assertiveness",
+    "Initial": 4.8,
+    "Current": 5.8,
+    "Goal": 8.1,
+    "Count": 8,
+    "Progress": "21%"
+  },
+  {
+    "Category": "Uniqueness",
+    "Title": "Authenticity",
+    "Initial": 7.5,
+    "Current": 9,
+    "Goal": 10,
+    "Count": 2,
+    "Progress": "20%"
+  },
+  {
+    "Category": "Driving performance",
+    "Title": "Manages Complexity",
+    "Initial": 5.3,
+    "Current": 6.3,
+    "Goal": 8.3,
+    "Count": 3,
+    "Progress": "19%"
+  },
+  {
+    "Category": "Deliver best in class solutions",
+    "Title": "Execute efficiently",
+    "Initial": 6,
+    "Current": 7,
+    "Goal": 9,
+    "Count": 2,
+    "Progress": "17%"
+  },
+  {
+    "Category": "Grow as a person",
+    "Title": "Find more balance",
+    "Initial": 4,
+    "Current": 4.7,
+    "Goal": 8.7,
+    "Count": 3,
+    "Progress": "17%"
+  },
+  {
+    "Category": "Developing people",
+    "Title": "Develops Talent",
+    "Initial": 6.3,
+    "Current": 7.3,
+    "Goal": 9,
+    "Count": 3,
+    "Progress": "16%"
+  },
+  {
+    "Category": "Strategic Leadership",
+    "Title": "Persuasiveness",
+    "Initial": 5.2,
+    "Current": 6,
+    "Goal": 8.6,
+    "Count": 5,
+    "Progress": "15%"
+  },
+  {
+    "Category": "Strategic Leadership",
+    "Title": "Development of a business network",
+    "Initial": 3.3,
+    "Current": 3.8,
+    "Goal": 7.5,
+    "Count": 10,
+    "Progress": "15%"
+  },
+  {
+    "Category": "Focus on Results",
+    "Title": "Goals Orientation",
+    "Initial": 4.7,
+    "Current": 5.3,
+    "Goal": 9.3,
+    "Count": 3,
+    "Progress": "14%"
+  },
+  {
+    "Category": "Presence",
+    "Title": "Mindfulness",
+    "Initial": 4.9,
+    "Current": 5.5,
+    "Goal": 8.2,
+    "Count": 1187,
+    "Progress": "14%"
+  },
+  {
+    "Category": "Think",
+    "Title": "Are Right, A Lot",
+    "Initial": 5.1,
+    "Current": 5.8,
+    "Goal": 8,
+    "Count": 10,
+    "Progress": "14%"
+  },
+  {
+    "Category": "Strategic Leadership",
+    "Title": "Strategic planning",
+    "Initial": 4.4,
+    "Current": 5,
+    "Goal": 8.3,
+    "Count": 5,
+    "Progress": "14%"
+  },
+  {
+    "Category": "Open & Authentic",
+    "Title": "Situational adaptability",
+    "Initial": 5,
+    "Current": 5.7,
+    "Goal": 8.2,
+    "Count": 9,
+    "Progress": "13%"
+  },
+  {
+    "Category": "Grow as a person",
+    "Title": "Know yourself",
+    "Initial": 5,
+    "Current": 5.7,
+    "Goal": 9,
+    "Count": 3,
+    "Progress": "13%"
+  },
+  {
+    "Category": "Balance",
+    "Title": "Emotional Regulation",
+    "Initial": 4.9,
+    "Current": 5.5,
+    "Goal": 8.2,
+    "Count": 1710,
+    "Progress": "13%"
+  },
+  {
+    "Category": "Bold & Agile",
+    "Title": "Decision quality",
+    "Initial": 5.6,
+    "Current": 6.3,
+    "Goal": 8.4,
+    "Count": 13,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Empowerment",
+    "Title": "Delegation",
+    "Initial": 4.9,
+    "Current": 5.5,
+    "Goal": 8.3,
+    "Count": 991,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Flourish",
+    "Title": "Self-Efficacy",
+    "Initial": 5.8,
+    "Current": 6.4,
+    "Goal": 8.5,
+    "Count": 16,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Commitment",
+    "Title": "Grit",
+    "Initial": 5.6,
+    "Current": 6.3,
+    "Goal": 8.5,
+    "Count": 12,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Teach",
+    "Title": "Strive to Be Earth's Best Employer",
+    "Initial": 4.3,
+    "Current": 4.8,
+    "Goal": 8.5,
+    "Count": 4,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Presence",
+    "Title": "Centeredness",
+    "Initial": 5,
+    "Current": 5.6,
+    "Goal": 8.2,
+    "Count": 993,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Deliver",
+    "Title": "Success and Scale Bring Broad Responsibility",
+    "Initial": 4.8,
+    "Current": 5.3,
+    "Goal": 8,
+    "Count": 9,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Growth Mindset",
+    "Title": "Resourcefulness",
+    "Initial": 5.2,
+    "Current": 5.8,
+    "Goal": 8.4,
+    "Count": 5,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Deliver Through Collaboration",
+    "Title": "Plans & aligns",
+    "Initial": 4.7,
+    "Current": 5.3,
+    "Goal": 8.5,
+    "Count": 11,
+    "Progress": "12%"
+  },
+  {
+    "Category": "Balance",
+    "Title": "Resilience",
+    "Initial": 5.1,
+    "Current": 5.7,
+    "Goal": 8.3,
+    "Count": 1562,
+    "Progress": "11%"
+  },
+  {
+    "Category": "Balance",
+    "Title": "Time Management",
+    "Initial": 4.9,
+    "Current": 5.5,
+    "Goal": 8.4,
+    "Count": 1624,
+    "Progress": "11%"
+  }
+]

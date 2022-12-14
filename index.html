@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress and Goals</title>
+    <link rel="stylesheet" href="chart.css">
+</head>
+
+
+<body>
+
+    <h3>Progress and Goals by Focus Area</h3>
+    <svg id="legend" width="1000" height="100"></svg>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="bullet.js"></script>
+    <script>
+    var margin = {top: 5, right: 100, bottom: 20, left: 350},
+    width = 1000 - margin.left - margin.right,
+    height = 50 - margin.top - margin.bottom;
+    
+    var chart = d3.bullet()
+                  .width(width - 100)
+                  .height(height);
+    
+    d3.json("data_visualization_exercise.json").then(function(data) {
+    
+    var svg = d3.select("body").selectAll("svg")
+                .data(data)
+                .enter().append("svg")
+                .attr("class", "bullet")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                .call(chart);
+    
+    var labels = svg.append("g")
+                   .style("text-anchor", "end")
+                   .attr("transform", "translate(-6," + height / 2 + ")");
+                    
+    labels.append("text")
+         .attr("class", "title")
+         .text(function(d) { return d.Title; });
+
+
+    var counts = svg.append("g")
+            .style("text-anchor", "end")
+            .attr("transform", "translate(550," + height / 2 + ")");
+    
+    counts.append("text")
+            .attr("class", "title")
+            .text(function (d) { return d.Count; });
+
+    var progress = svg.append("g")
+            .style("text-anchor", "end")
+            .attr("transform", "translate(650," + height / 2 + ")");
+    
+    progress.append("text")
+            .attr("class", "title")
+            .text(function (d) { return d.Progress; });
+    
+
+    var svg2 = d3.select('#legend');
+    var keys = ['Initial', 'Current', 'Goal'];
+
+    var color = d3.scaleOrdinal()
+                    .domain(keys)
+                    .range(['lightblue', 'darkblue', 'orange']);
+   
+
+    svg2.selectAll("circle")
+            .data(keys)
+            .enter()
+            .append("circle")
+            .attr("cx", function (d, i) { return 400 + i * 150 }) 
+            .attr("cy", 50)
+            .attr("r", 7)
+            .attr("fill", function (d) { return color(d) });
+
+       
+    svg2.selectAll("labels")
+            .data(keys)
+            .enter()
+            .append("text")
+            .attr("x", function (d, i) { return 420 + i * 150 }) 
+            .attr("y", 50)
+            .style("fill", function (d) { return color(d) })
+            .text(function (d) { return d })
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle")
+            .style("font-size", 12);
+    
+    });
+    
+    
+</script>
+</body>
+
+</html>

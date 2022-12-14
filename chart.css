@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: "Montserrat";
+    margin-top: 20px;
+    position: relative;
+    width: 800px;
+}
+
+body h3{
+    margin-left: 50%;
+    width: 100%;
+    padding-top: 20px;
+   
+}
+
+.bullet {
+    font: 10px 'Montserrat';
+}
+
+.bullet .goal {
+    stroke: orange;
+    stroke-width: 7px;
+}
+
+.bullet .tick line {
+    stroke: #666;
+    stroke-width: .5px;
+}
+
+.bullet .initial1.s0 {
+    fill: lightblue;
+}
+
+
+.bullet .current1.s0 {
+    fill: darkblue;
+}
+
+.bullet .title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
