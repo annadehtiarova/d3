@@ -14,6 +14,14 @@
 
     <h3>Progress and Goals by Focus Area</h3>
     <svg id="legend" width="1000" height="100"></svg>
+    <div class="container">
+        <div class="flex-1">
+        <p># of Coachees</p>
+        </div>
+        <div class="flex-2">
+        <p>Progress</p>
+        </div>
+    </div>
 
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="bullet.js"></script>
@@ -69,7 +77,7 @@
 
     var color = d3.scaleOrdinal()
                     .domain(keys)
-                    .range(['lightblue', 'darkblue', 'orange']);
+                    .range(['#98D0FF', '#2D3092', '#FF8255']);
    
 
     svg2.selectAll("circle")
