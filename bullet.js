@@ -4,7 +4,7 @@
 // based on the work of Clint Ivy, Jamie Love, and Jason Davies.
 // http://projects.instantcognition.com/protovis/bulletchart/
 d3.bullet = function() {
-  var orient = "left", // TODO top & bottom
+  var orient = "left", 
       reverse = false,
       duration = 0,
       initial = bulletInitial,
@@ -120,7 +120,6 @@ d3.bullet = function() {
     
   }
 
-  // left, right, top, bottom
   bullet.orient = function(x) {
     if (!arguments.length) return orient;
     orient = x;
@@ -128,21 +127,21 @@ d3.bullet = function() {
     return bullet;
   };
 
-  // initial (bad, satisfactory, good)
+
   bullet.initial = function(x) {
     if (!arguments.length) return initial;
     initial = x;
     return bullet;
   };
 
-  // goal (previous, goal)
+ 
   bullet.goal = function(x) {
     if (!arguments.length) return goal;
     goal = x;
     return bullet;
   };
 
-  // current (actual, forecast)
+ 
   bullet.current = function(x) {
     if (!arguments.length) return current;
     current = x;
